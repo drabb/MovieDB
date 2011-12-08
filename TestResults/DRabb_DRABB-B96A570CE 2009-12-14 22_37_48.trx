@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5df07c78-dd28-4a14-9926-f3fb1c5dd4c5" name="DRabb@DRABB-B96A570CE 2009-12-14 22:37:48" runUser="DRABB-B96A570CE\DRabb" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Default Run Configuration" id="70958650-17df-4d03-9438-5ef667f95627">
+    <Deployment runDeploymentRoot="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\TestResults\DRabb_DRABB-B96A570CE 2009-12-14 22_37_48">
+      <DeploymentItem filename="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB\bin\MovieDB.dll" />
+    </Deployment>
+    <Hosts skipUnhostableTests="false" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="29" executed="29" passed="28" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2009-12-14T22:37:48.9016250-05:00" queuing="2009-12-14T22:37:49.7610000-05:00" start="2009-12-14T22:37:49.9328750-05:00" finish="2009-12-14T22:37:53.5266250-05:00" />
+  <TestDefinitions>
+    <UnitTest name="RegisterPostReturnsViewIfRegistrationFails" storage="c:\documents and settings\drabb\my documents\visual studio 2008\projects\moviedb\moviedb.tests\bin\debug\moviedb.tests.dll" id="08409353-5a43-251a-25ff-10633b1b0ad9">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="60945134-836b-4bf1-9bef-e7d6be691343" />
+      <TestMethod codeBase="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MovieDB.Tests.Controllers.AccountControllerTest, MovieDB.Tests" name="RegisterPostReturnsViewIfRegistrationFails" />
+    </UnitTest>
+    <UnitTest name="LoginPostRedirectsHomeIfLoginSuccessfulButNoReturnUrlGiven" storage="c:\documents and settings\drabb\my documents\visual studio 2008\projects\moviedb\moviedb.tests\bin\debug\moviedb.tests.dll" id="183ee398-f941-fcf0-b5a1-818cbe1573a6">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="6fe84750-43c4-4bdf-81c6-ba0ab39dc281" />
+      <TestMethod codeBase="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MovieDB.Tests.Controllers.AccountControllerTest, MovieDB.Tests" name="LoginPostRedirectsHomeIfLoginSuccessfulButNoReturnUrlGiven" />
+    </UnitTest>
+    <UnitTest name="LoginPostReturnsViewIfUsernameNotSpecified" storage="c:\documents and settings\drabb\my documents\visual studio 2008\projects\moviedb\moviedb.tests\bin\debug\moviedb.tests.dll" id="83b86e71-838e-9106-009c-0328dff7f341">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="f0b0168b-c9db-446c-9533-1470154c21f0" />
+      <TestMethod codeBase="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MovieDB.Tests.Controllers.AccountControllerTest, MovieDB.Tests" name="LoginPostReturnsViewIfUsernameNotSpecified" />
+    </UnitTest>
+    <UnitTest name="About" storage="c:\documents and settings\drabb\my documents\visual studio 2008\projects\moviedb\moviedb.tests\bin\debug\moviedb.tests.dll" id="2d80cd66-1633-1662-54e1-c5806e7eb800">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="c873df90-3dc5-46f4-917d-4ea4d6a15ef6" />
+      <TestMethod codeBase="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MovieDB.Tests.Controllers.HomeControllerTest, MovieDB.Tests" name="About" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordPostReturnsViewIfNewPasswordDoesNotMatchConfirmPassword" storage="c:\documents and settings\drabb\my documents\visual studio 2008\projects\moviedb\moviedb.tests\bin\debug\moviedb.tests.dll" id="38068b20-a28a-0024-bdff-eecbc048f33a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="c75fdc6c-3931-4744-97f1-7d6ddeb17c2c" />
+      <TestMethod codeBase="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MovieDB.Tests.Controllers.AccountControllerTest, MovieDB.Tests" name="ChangePasswordPostReturnsViewIfNewPasswordDoesNotMatchConfirmPassword" />
+    </UnitTest>
+    <UnitTest name="RegisterGet" storage="c:\documents and settings\drabb\my documents\visual studio 2008\projects\moviedb\moviedb.tests\bin\debug\moviedb.tests.dll" id="6adb89d0-b6b5-d18b-4cf6-ecfdb624cb55">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="0fbe6673-faae-4cf1-83dc-9c94e539edff" />
+      <TestMethod codeBase="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MovieDB.Tests.Controllers.AccountControllerTest, MovieDB.Tests" name="RegisterGet" />
+    </UnitTest>
+    <UnitTest name="Movie_Should_Be_Valid_When_Props_Correct" storage="c:\documents and settings\drabb\my documents\visual studio 2008\projects\moviedb\moviedb.tests\bin\debug\moviedb.tests.dll" id="740c8d06-ca32-5fa8-6216-55d309c191b2">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="3fa12569-20fe-46c1-ab85-d950cb47f624" />
+      <TestMethod codeBase="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MovieDB.Tests.Models.MovieTest, MovieDB.Tests" name="Movie_Should_Be_Valid_When_Props_Correct" />
+    </UnitTest>
+    <UnitTest name="RegisterPostReturnsViewIfUsernameNotSpecified" storage="c:\documents and settings\drabb\my documents\visual studio 2008\projects\moviedb\moviedb.tests\bin\debug\moviedb.tests.dll" id="a2e448b8-4296-e572-c17b-1815d50814af">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="46545a78-e2f3-4eba-a78a-2626e93d35cb" />
+      <TestMethod codeBase="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MovieDB.Tests.Controllers.AccountControllerTest, MovieDB.Tests" name="RegisterPostReturnsViewIfUsernameNotSpecified" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordPostReturnsViewIfNewPasswordIsTooShort" storage="c:\documents and settings\drabb\my documents\visual studio 2008\projects\moviedb\moviedb.tests\bin\debug\moviedb.tests.dll" id="918d62d4-0f8a-b471-d731-308cf8a0e4b1">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="44d6b1fa-c859-449a-af05-5e9a72f43c2c" />
+      <TestMethod codeBase="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MovieDB.Tests.Controllers.AccountControllerTest, MovieDB.Tests" name="ChangePasswordPostReturnsViewIfNewPasswordIsTooShort" />
+    </UnitTest>
+    <UnitTest name="RegisterPostReturnsViewIfPasswordIsTooShort" storage="c:\documents and settings\drabb\my documents\visual studio 2008\projects\moviedb\moviedb.tests\bin\debug\moviedb.tests.dll" id="f1a48eb2-3f50-b3b1-5ea3-aa4dbaa8527c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="7487bcae-30be-465b-9304-7ceddae7824b" />
+      <TestMethod codeBase="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MovieDB.Tests.Controllers.AccountControllerTest, MovieDB.Tests" name="RegisterPostReturnsViewIfPasswordIsTooShort" />
+    </UnitTest>
+    <UnitTest name="ConstructorSetsPropertiesToDefaultValues" storage="c:\documents and settings\drabb\my documents\visual studio 2008\projects\moviedb\moviedb.tests\bin\debug\moviedb.tests.dll" id="a6993fb8-9798-80e3-682c-43e6a1891d6a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="1aa80d84-a93a-41a6-8cce-6aac7078f8a6" />
+      <TestMethod codeBase="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MovieDB.Tests.Controllers.AccountControllerTest, MovieDB.Tests" name="ConstructorSetsPropertiesToDefaultValues" />
+    </UnitTest>
+    <UnitTest name="ConstructorSetsProperties" storage="c:\documents and settings\drabb\my documents\visual studio 2008\projects\moviedb\moviedb.tests\bin\debug\moviedb.tests.dll" id="cbbc67a1-65a0-501d-7c6c-ab0d1e88878e">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="9639814b-d995-42ba-9a54-6c895bb1ee1e" />
+      <TestMethod codeBase="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MovieDB.Tests.Controllers.AccountControllerTest, MovieDB.Tests" name="ConstructorSetsProperties" />
+    </UnitTest>
+    <UnitTest name="LoginGet" storage="c:\documents and settings\drabb\my documents\visual studio 2008\projects\moviedb\moviedb.tests\bin\debug\moviedb.tests.dll" id="98bea2f0-943a-cea8-daa8-0185277b476a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="dfafd0e5-25c0-4711-a0dc-3d0b004a108f" />
+      <TestMethod codeBase="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MovieDB.Tests.Controllers.AccountControllerTest, MovieDB.Tests" name="LoginGet" />
+    </UnitTest>
+    <UnitTest name="LoginPostRedirectsToReturnUrlIfLoginSuccessfulAndReturnUrlGiven" storage="c:\documents and settings\drabb\my documents\visual studio 2008\projects\moviedb\moviedb.tests\bin\debug\moviedb.tests.dll" id="9ba770e0-0e0d-1b19-eef4-6de0771752f6">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="0e4848a2-b4a2-4d18-ad0b-7d293fd028fb" />
+      <TestMethod codeBase="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MovieDB.Tests.Controllers.AccountControllerTest, MovieDB.Tests" name="LoginPostRedirectsToReturnUrlIfLoginSuccessfulAndReturnUrlGiven" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordPostReturnsViewIfCurrentPasswordNotSpecified" storage="c:\documents and settings\drabb\my documents\visual studio 2008\projects\moviedb\moviedb.tests\bin\debug\moviedb.tests.dll" id="1e682f06-c984-824a-f34a-32f4231def54">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="df9d13d9-8e74-43c4-ab86-3e8347232bd9" />
+      <TestMethod codeBase="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MovieDB.Tests.Controllers.AccountControllerTest, MovieDB.Tests" name="ChangePasswordPostReturnsViewIfCurrentPasswordNotSpecified" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordSuccess" storage="c:\documents and settings\drabb\my documents\visual studio 2008\projects\moviedb\moviedb.tests\bin\debug\moviedb.tests.dll" id="ed6d8e19-eafb-5ecb-c310-41a2af878912">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="c517a856-c808-4c7e-b310-6c8e32cc86c5" />
+      <TestMethod codeBase="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MovieDB.Tests.Controllers.AccountControllerTest, MovieDB.Tests" name="ChangePasswordSuccess" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordPostReturnsViewIfNewPasswordIsNull" storage="c:\documents and settings\drabb\my documents\visual studio 2008\projects\moviedb\moviedb.tests\bin\debug\moviedb.tests.dll" id="216b5718-4bd4-6097-53ca-226f89fd0359">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="eecf3540-3f8e-445d-9159-1a16e0d2d28d" />
+      <TestMethod codeBase="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MovieDB.Tests.Controllers.AccountControllerTest, MovieDB.Tests" name="ChangePasswordPostReturnsViewIfNewPasswordIsNull" />
+    </UnitTest>
+    <UnitTest name="RegisterPostReturnsViewIfPasswordIsNull" storage="c:\documents and settings\drabb\my documents\visual studio 2008\projects\moviedb\moviedb.tests\bin\debug\moviedb.tests.dll" id="38870fea-6ceb-2cdf-7cbf-2cf05882dacd">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="ad1fc8d2-b42d-4a69-8ea2-023e60674057" />
+      <TestMethod codeBase="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MovieDB.Tests.Controllers.AccountControllerTest, MovieDB.Tests" name="RegisterPostReturnsViewIfPasswordIsNull" />
+    </UnitTest>
+    <UnitTest name="RegisterPostReturnsViewIfNewPasswordDoesNotMatchConfirmPassword" storage="c:\documents and settings\drabb\my documents\visual studio 2008\projects\moviedb\moviedb.tests\bin\debug\moviedb.tests.dll" id="6f314939-7551-fa1d-dac4-16ef1bd0e910">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="de8356ed-1510-4331-b9f5-54e2d2212512" />
+      <TestMethod codeBase="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MovieDB.Tests.Controllers.AccountControllerTest, MovieDB.Tests" name="RegisterPostReturnsViewIfNewPasswordDoesNotMatchConfirmPassword" />
+    </UnitTest>
+    <UnitTest name="LoginPostReturnsViewIfPasswordNotSpecified" storage="c:\documents and settings\drabb\my documents\visual studio 2008\projects\moviedb\moviedb.tests\bin\debug\moviedb.tests.dll" id="234565a9-9370-2bc0-4c42-85df4b431ce3">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="cabdd0f0-a9fd-421e-977a-8bba91acd3f5" />
+      <TestMethod codeBase="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MovieDB.Tests.Controllers.AccountControllerTest, MovieDB.Tests" name="LoginPostReturnsViewIfPasswordNotSpecified" />
+    </UnitTest>
+    <UnitTest name="RegisterPostReturnsViewIfEmailNotSpecified" storage="c:\documents and settings\drabb\my documents\visual studio 2008\projects\moviedb\moviedb.tests\bin\debug\moviedb.tests.dll" id="99cd90c5-4134-84e6-0958-fdb058ced183">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="2632344f-4bf0-41ac-82e4-a76390f83e3e" />
+      <TestMethod codeBase="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MovieDB.Tests.Controllers.AccountControllerTest, MovieDB.Tests" name="RegisterPostReturnsViewIfEmailNotSpecified" />
+    </UnitTest>
+    <UnitTest name="LoginPostReturnsViewIfUsernameOrPasswordIsIncorrect" storage="c:\documents and settings\drabb\my documents\visual studio 2008\projects\moviedb\moviedb.tests\bin\debug\moviedb.tests.dll" id="12cefc95-5d89-c605-c676-c6666088c5b3">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="062e2735-5aac-4dee-8b52-42fbf326ee08" />
+      <TestMethod codeBase="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MovieDB.Tests.Controllers.AccountControllerTest, MovieDB.Tests" name="LoginPostReturnsViewIfUsernameOrPasswordIsIncorrect" />
+    </UnitTest>
+    <UnitTest name="Index" storage="c:\documents and settings\drabb\my documents\visual studio 2008\projects\moviedb\moviedb.tests\bin\debug\moviedb.tests.dll" id="66e14f3b-35d4-7e8a-9bcc-c11a69d1b628">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="57fec2d5-c5ed-4f0b-aa7f-9f0543ed1a6e" />
+      <TestMethod codeBase="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MovieDB.Tests.Controllers.HomeControllerTest, MovieDB.Tests" name="Index" />
+    </UnitTest>
+    <UnitTest name="RegisterPostRedirectsHomeIfRegistrationSuccessful" storage="c:\documents and settings\drabb\my documents\visual studio 2008\projects\moviedb\moviedb.tests\bin\debug\moviedb.tests.dll" id="d6c9c08a-6e57-7a0b-5c23-f1577eea53f2">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="453c594a-0a91-4a9a-9935-c83c044f9277" />
+      <TestMethod codeBase="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MovieDB.Tests.Controllers.AccountControllerTest, MovieDB.Tests" name="RegisterPostRedirectsHomeIfRegistrationSuccessful" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordPostRedirectsOnSuccess" storage="c:\documents and settings\drabb\my documents\visual studio 2008\projects\moviedb\moviedb.tests\bin\debug\moviedb.tests.dll" id="08ccbb73-938c-b776-9f1a-6062fff03b34">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="d9c7ede2-d47b-4873-acab-5d174f4ffdfe" />
+      <TestMethod codeBase="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MovieDB.Tests.Controllers.AccountControllerTest, MovieDB.Tests" name="ChangePasswordPostRedirectsOnSuccess" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordGetReturnsView" storage="c:\documents and settings\drabb\my documents\visual studio 2008\projects\moviedb\moviedb.tests\bin\debug\moviedb.tests.dll" id="f364633a-e3b3-6ef5-7899-d7dddcf2f7e2">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="8bddeb04-f044-44ee-9fff-4e57cf64a40b" />
+      <TestMethod codeBase="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MovieDB.Tests.Controllers.AccountControllerTest, MovieDB.Tests" name="ChangePasswordGetReturnsView" />
+    </UnitTest>
+    <UnitTest name="Movie_Should_Be_Invalid_When_Props_Incorrect" storage="c:\documents and settings\drabb\my documents\visual studio 2008\projects\moviedb\moviedb.tests\bin\debug\moviedb.tests.dll" id="9b5e4c1d-75f0-ef57-97e4-b18106de3264">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="ffb7f44d-2c73-40fe-9045-b5493e786805" />
+      <TestMethod codeBase="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MovieDB.Tests.Models.MovieTest, MovieDB.Tests" name="Movie_Should_Be_Invalid_When_Props_Incorrect" />
+    </UnitTest>
+    <UnitTest name="LogOff" storage="c:\documents and settings\drabb\my documents\visual studio 2008\projects\moviedb\moviedb.tests\bin\debug\moviedb.tests.dll" id="b0807b3b-793c-48a6-cb98-aa0dcaf2bf90">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5f438e6b-8f46-413f-8bff-35b652a1e4cd" />
+      <TestMethod codeBase="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MovieDB.Tests.Controllers.AccountControllerTest, MovieDB.Tests" name="LogOff" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordPostReturnsViewIfProviderRejectsPassword" storage="c:\documents and settings\drabb\my documents\visual studio 2008\projects\moviedb\moviedb.tests\bin\debug\moviedb.tests.dll" id="f5a547a7-ee24-959f-8825-0044a66fb5e4">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="297408ff-46e1-4649-acfd-970c2c87cec7" />
+      <TestMethod codeBase="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MovieDB.Tests.Controllers.AccountControllerTest, MovieDB.Tests" name="ChangePasswordPostReturnsViewIfProviderRejectsPassword" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="08409353-5a43-251a-25ff-10633b1b0ad9" executionId="60945134-836b-4bf1-9bef-e7d6be691343" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="08ccbb73-938c-b776-9f1a-6062fff03b34" executionId="d9c7ede2-d47b-4873-acab-5d174f4ffdfe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="12cefc95-5d89-c605-c676-c6666088c5b3" executionId="062e2735-5aac-4dee-8b52-42fbf326ee08" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="183ee398-f941-fcf0-b5a1-818cbe1573a6" executionId="6fe84750-43c4-4bdf-81c6-ba0ab39dc281" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1e682f06-c984-824a-f34a-32f4231def54" executionId="df9d13d9-8e74-43c4-ab86-3e8347232bd9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="216b5718-4bd4-6097-53ca-226f89fd0359" executionId="eecf3540-3f8e-445d-9159-1a16e0d2d28d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="234565a9-9370-2bc0-4c42-85df4b431ce3" executionId="cabdd0f0-a9fd-421e-977a-8bba91acd3f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2d80cd66-1633-1662-54e1-c5806e7eb800" executionId="c873df90-3dc5-46f4-917d-4ea4d6a15ef6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="38068b20-a28a-0024-bdff-eecbc048f33a" executionId="c75fdc6c-3931-4744-97f1-7d6ddeb17c2c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="38870fea-6ceb-2cdf-7cbf-2cf05882dacd" executionId="ad1fc8d2-b42d-4a69-8ea2-023e60674057" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="66e14f3b-35d4-7e8a-9bcc-c11a69d1b628" executionId="57fec2d5-c5ed-4f0b-aa7f-9f0543ed1a6e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6adb89d0-b6b5-d18b-4cf6-ecfdb624cb55" executionId="0fbe6673-faae-4cf1-83dc-9c94e539edff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6f314939-7551-fa1d-dac4-16ef1bd0e910" executionId="de8356ed-1510-4331-b9f5-54e2d2212512" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="740c8d06-ca32-5fa8-6216-55d309c191b2" executionId="3fa12569-20fe-46c1-ab85-d950cb47f624" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="83b86e71-838e-9106-009c-0328dff7f341" executionId="f0b0168b-c9db-446c-9533-1470154c21f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="918d62d4-0f8a-b471-d731-308cf8a0e4b1" executionId="44d6b1fa-c859-449a-af05-5e9a72f43c2c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="98bea2f0-943a-cea8-daa8-0185277b476a" executionId="dfafd0e5-25c0-4711-a0dc-3d0b004a108f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="99cd90c5-4134-84e6-0958-fdb058ced183" executionId="2632344f-4bf0-41ac-82e4-a76390f83e3e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9b5e4c1d-75f0-ef57-97e4-b18106de3264" executionId="ffb7f44d-2c73-40fe-9045-b5493e786805" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ba770e0-0e0d-1b19-eef4-6de0771752f6" executionId="0e4848a2-b4a2-4d18-ad0b-7d293fd028fb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2e448b8-4296-e572-c17b-1815d50814af" executionId="46545a78-e2f3-4eba-a78a-2626e93d35cb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a6993fb8-9798-80e3-682c-43e6a1891d6a" executionId="1aa80d84-a93a-41a6-8cce-6aac7078f8a6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b0807b3b-793c-48a6-cb98-aa0dcaf2bf90" executionId="5f438e6b-8f46-413f-8bff-35b652a1e4cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cbbc67a1-65a0-501d-7c6c-ab0d1e88878e" executionId="9639814b-d995-42ba-9a54-6c895bb1ee1e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d6c9c08a-6e57-7a0b-5c23-f1577eea53f2" executionId="453c594a-0a91-4a9a-9935-c83c044f9277" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed6d8e19-eafb-5ecb-c310-41a2af878912" executionId="c517a856-c808-4c7e-b310-6c8e32cc86c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f1a48eb2-3f50-b3b1-5ea3-aa4dbaa8527c" executionId="7487bcae-30be-465b-9304-7ceddae7824b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f364633a-e3b3-6ef5-7899-d7dddcf2f7e2" executionId="8bddeb04-f044-44ee-9fff-4e57cf64a40b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f5a547a7-ee24-959f-8825-0044a66fb5e4" executionId="297408ff-46e1-4649-acfd-970c2c87cec7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="60945134-836b-4bf1-9bef-e7d6be691343" testId="08409353-5a43-251a-25ff-10633b1b0ad9" testName="RegisterPostReturnsViewIfRegistrationFails" computerName="DRABB-B96A570CE" duration="00:00:00.0586862" startTime="2009-12-14T22:37:50.0891250-05:00" endTime="2009-12-14T22:37:50.6828750-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d9c7ede2-d47b-4873-acab-5d174f4ffdfe" testId="08ccbb73-938c-b776-9f1a-6062fff03b34" testName="ChangePasswordPostRedirectsOnSuccess" computerName="DRABB-B96A570CE" duration="00:00:00.0028760" startTime="2009-12-14T22:37:50.6828750-05:00" endTime="2009-12-14T22:37:50.6985000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="062e2735-5aac-4dee-8b52-42fbf326ee08" testId="12cefc95-5d89-c605-c676-c6666088c5b3" testName="LoginPostReturnsViewIfUsernameOrPasswordIsIncorrect" computerName="DRABB-B96A570CE" duration="00:00:00.0015661" startTime="2009-12-14T22:37:50.6985000-05:00" endTime="2009-12-14T22:37:50.6985000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6fe84750-43c4-4bdf-81c6-ba0ab39dc281" testId="183ee398-f941-fcf0-b5a1-818cbe1573a6" testName="LoginPostRedirectsHomeIfLoginSuccessfulButNoReturnUrlGiven" computerName="DRABB-B96A570CE" duration="00:00:00.0007378" startTime="2009-12-14T22:37:50.7141250-05:00" endTime="2009-12-14T22:37:50.7141250-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="df9d13d9-8e74-43c4-ab86-3e8347232bd9" testId="1e682f06-c984-824a-f34a-32f4231def54" testName="ChangePasswordPostReturnsViewIfCurrentPasswordNotSpecified" computerName="DRABB-B96A570CE" duration="00:00:00.0005690" startTime="2009-12-14T22:37:50.7141250-05:00" endTime="2009-12-14T22:37:50.7141250-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="eecf3540-3f8e-445d-9159-1a16e0d2d28d" testId="216b5718-4bd4-6097-53ca-226f89fd0359" testName="ChangePasswordPostReturnsViewIfNewPasswordIsNull" computerName="DRABB-B96A570CE" duration="00:00:00.0005550" startTime="2009-12-14T22:37:50.7297500-05:00" endTime="2009-12-14T22:37:50.7297500-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cabdd0f0-a9fd-421e-977a-8bba91acd3f5" testId="234565a9-9370-2bc0-4c42-85df4b431ce3" testName="LoginPostReturnsViewIfPasswordNotSpecified" computerName="DRABB-B96A570CE" duration="00:00:00.0007718" startTime="2009-12-14T22:37:50.7297500-05:00" endTime="2009-12-14T22:37:50.7453750-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c873df90-3dc5-46f4-917d-4ea4d6a15ef6" testId="2d80cd66-1633-1662-54e1-c5806e7eb800" testName="About" computerName="DRABB-B96A570CE" duration="00:00:00.0009006" startTime="2009-12-14T22:37:50.7453750-05:00" endTime="2009-12-14T22:37:50.7453750-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c75fdc6c-3931-4744-97f1-7d6ddeb17c2c" testId="38068b20-a28a-0024-bdff-eecbc048f33a" testName="ChangePasswordPostReturnsViewIfNewPasswordDoesNotMatchConfirmPassword" computerName="DRABB-B96A570CE" duration="00:00:00.0006682" startTime="2009-12-14T22:37:50.7610000-05:00" endTime="2009-12-14T22:37:50.7610000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ad1fc8d2-b42d-4a69-8ea2-023e60674057" testId="38870fea-6ceb-2cdf-7cbf-2cf05882dacd" testName="RegisterPostReturnsViewIfPasswordIsNull" computerName="DRABB-B96A570CE" duration="00:00:00.0006349" startTime="2009-12-14T22:37:50.7610000-05:00" endTime="2009-12-14T22:37:50.7610000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="57fec2d5-c5ed-4f0b-aa7f-9f0543ed1a6e" testId="66e14f3b-35d4-7e8a-9bcc-c11a69d1b628" testName="Index" computerName="DRABB-B96A570CE" duration="00:00:00.0004483" startTime="2009-12-14T22:37:50.7766250-05:00" endTime="2009-12-14T22:37:50.7766250-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0fbe6673-faae-4cf1-83dc-9c94e539edff" testId="6adb89d0-b6b5-d18b-4cf6-ecfdb624cb55" testName="RegisterGet" computerName="DRABB-B96A570CE" duration="00:00:00.0005576" startTime="2009-12-14T22:37:50.7766250-05:00" endTime="2009-12-14T22:37:50.7766250-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="de8356ed-1510-4331-b9f5-54e2d2212512" testId="6f314939-7551-fa1d-dac4-16ef1bd0e910" testName="RegisterPostReturnsViewIfNewPasswordDoesNotMatchConfirmPassword" computerName="DRABB-B96A570CE" duration="00:00:00.0006296" startTime="2009-12-14T22:37:50.7922500-05:00" endTime="2009-12-14T22:37:50.7922500-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3fa12569-20fe-46c1-ab85-d950cb47f624" testId="740c8d06-ca32-5fa8-6216-55d309c191b2" testName="Movie_Should_Be_Valid_When_Props_Correct" computerName="DRABB-B96A570CE" duration="00:00:01.7439518" startTime="2009-12-14T22:37:50.7922500-05:00" endTime="2009-12-14T22:37:52.5422500-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f0b0168b-c9db-446c-9533-1470154c21f0" testId="83b86e71-838e-9106-009c-0328dff7f341" testName="LoginPostReturnsViewIfUsernameNotSpecified" computerName="DRABB-B96A570CE" duration="00:00:00.0005911" startTime="2009-12-14T22:37:52.5422500-05:00" endTime="2009-12-14T22:37:52.5578750-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="44d6b1fa-c859-449a-af05-5e9a72f43c2c" testId="918d62d4-0f8a-b471-d731-308cf8a0e4b1" testName="ChangePasswordPostReturnsViewIfNewPasswordIsTooShort" computerName="DRABB-B96A570CE" duration="00:00:00.0006045" startTime="2009-12-14T22:37:52.5735000-05:00" endTime="2009-12-14T22:37:52.5891250-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="dfafd0e5-25c0-4711-a0dc-3d0b004a108f" testId="98bea2f0-943a-cea8-daa8-0185277b476a" testName="LoginGet" computerName="DRABB-B96A570CE" duration="00:00:00.0007084" startTime="2009-12-14T22:37:52.5891250-05:00" endTime="2009-12-14T22:37:52.5891250-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2632344f-4bf0-41ac-82e4-a76390f83e3e" testId="99cd90c5-4134-84e6-0958-fdb058ced183" testName="RegisterPostReturnsViewIfEmailNotSpecified" computerName="DRABB-B96A570CE" duration="00:00:00.0007218" startTime="2009-12-14T22:37:52.5891250-05:00" endTime="2009-12-14T22:37:52.6047500-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ffb7f44d-2c73-40fe-9045-b5493e786805" testId="9b5e4c1d-75f0-ef57-97e4-b18106de3264" testName="Movie_Should_Be_Invalid_When_Props_Incorrect" computerName="DRABB-B96A570CE" duration="00:00:00.7273195" startTime="2009-12-14T22:37:52.6047500-05:00" endTime="2009-12-14T22:37:53.3391250-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsFalse failed. </Message>
+          <StackTrace>   at MovieDB.Tests.Models.MovieTest.Movie_Should_Be_Invalid_When_Props_Incorrect() in C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\Models\MovieTest.cs:line 32
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0e4848a2-b4a2-4d18-ad0b-7d293fd028fb" testId="9ba770e0-0e0d-1b19-eef4-6de0771752f6" testName="LoginPostRedirectsToReturnUrlIfLoginSuccessfulAndReturnUrlGiven" computerName="DRABB-B96A570CE" duration="00:00:00.0005847" startTime="2009-12-14T22:37:53.3391250-05:00" endTime="2009-12-14T22:37:53.3547500-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="46545a78-e2f3-4eba-a78a-2626e93d35cb" testId="a2e448b8-4296-e572-c17b-1815d50814af" testName="RegisterPostReturnsViewIfUsernameNotSpecified" computerName="DRABB-B96A570CE" duration="00:00:00.0006475" startTime="2009-12-14T22:37:53.3547500-05:00" endTime="2009-12-14T22:37:53.3547500-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1aa80d84-a93a-41a6-8cce-6aac7078f8a6" testId="a6993fb8-9798-80e3-682c-43e6a1891d6a" testName="ConstructorSetsPropertiesToDefaultValues" computerName="DRABB-B96A570CE" duration="00:00:00.0422313" startTime="2009-12-14T22:37:53.3547500-05:00" endTime="2009-12-14T22:37:53.4016250-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5f438e6b-8f46-413f-8bff-35b652a1e4cd" testId="b0807b3b-793c-48a6-cb98-aa0dcaf2bf90" testName="LogOff" computerName="DRABB-B96A570CE" duration="00:00:00.0005956" startTime="2009-12-14T22:37:53.4172500-05:00" endTime="2009-12-14T22:37:53.4172500-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9639814b-d995-42ba-9a54-6c895bb1ee1e" testId="cbbc67a1-65a0-501d-7c6c-ab0d1e88878e" testName="ConstructorSetsProperties" computerName="DRABB-B96A570CE" duration="00:00:00.0008766" startTime="2009-12-14T22:37:53.4172500-05:00" endTime="2009-12-14T22:37:53.4172500-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="453c594a-0a91-4a9a-9935-c83c044f9277" testId="d6c9c08a-6e57-7a0b-5c23-f1577eea53f2" testName="RegisterPostRedirectsHomeIfRegistrationSuccessful" computerName="DRABB-B96A570CE" duration="00:00:00.0005506" startTime="2009-12-14T22:37:53.4328750-05:00" endTime="2009-12-14T22:37:53.4328750-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c517a856-c808-4c7e-b310-6c8e32cc86c5" testId="ed6d8e19-eafb-5ecb-c310-41a2af878912" testName="ChangePasswordSuccess" computerName="DRABB-B96A570CE" duration="00:00:00.0003978" startTime="2009-12-14T22:37:53.4328750-05:00" endTime="2009-12-14T22:37:53.4328750-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7487bcae-30be-465b-9304-7ceddae7824b" testId="f1a48eb2-3f50-b3b1-5ea3-aa4dbaa8527c" testName="RegisterPostReturnsViewIfPasswordIsTooShort" computerName="DRABB-B96A570CE" duration="00:00:00.0005553" startTime="2009-12-14T22:37:53.4485000-05:00" endTime="2009-12-14T22:37:53.4485000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8bddeb04-f044-44ee-9fff-4e57cf64a40b" testId="f364633a-e3b3-6ef5-7899-d7dddcf2f7e2" testName="ChangePasswordGetReturnsView" computerName="DRABB-B96A570CE" duration="00:00:00.0005383" startTime="2009-12-14T22:37:53.4485000-05:00" endTime="2009-12-14T22:37:53.4485000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="297408ff-46e1-4649-acfd-970c2c87cec7" testId="f5a547a7-ee24-959f-8825-0044a66fb5e4" testName="ChangePasswordPostReturnsViewIfProviderRejectsPassword" computerName="DRABB-B96A570CE" duration="00:00:00.0006936" startTime="2009-12-14T22:37:53.4641250-05:00" endTime="2009-12-14T22:37:53.4641250-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

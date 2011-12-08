@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2009-12-29" time="21:18:20">
+  <environment nunit-version="2.5.3.9345" clr-version="2.0.50727.3603" os-version="Microsoft Windows NT 5.1.2600 Service Pack 2" platform="Win32NT" cwd="C:\Program Files\NUnit 2.5.3\bin\net-2.0" machine-name="DRABB-B96A570CE" user="DRabb" user-domain="DRABB-B96A570CE" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite name="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" executed="True" success="True" time="6.094" asserts="0">
+    <results>
+      <test-suite name="MovieDB" executed="True" success="True" time="6.078" asserts="0">
+        <results>
+          <test-suite name="Tests" executed="True" success="True" time="6.078" asserts="0">
+            <results>
+              <test-suite name="Models" executed="True" success="True" time="6.078" asserts="0">
+                <results>
+                  <test-suite name="nunit_sandbox" executed="True" success="True" time="6.078" asserts="0">
+                    <results>
+                      <test-case name="MovieDB.Tests.Models.nunit_sandbox.Edit_Action_Should_Return_View_For_Valid_Movie" executed="True" success="True" time="6.078" asserts="1" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

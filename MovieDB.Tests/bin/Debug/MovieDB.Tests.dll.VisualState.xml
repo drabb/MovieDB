@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1002]C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll</TopNode>
+  <SelectedNode>[0-1000]MovieDB.Tests.Models.nunit_sandbox</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1002]C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" Expanded="true" />
+    <Node UniqueName="[0-1003]MovieDB" Expanded="true" />
+    <Node UniqueName="[0-1004]MovieDB.Tests" Expanded="true" />
+    <Node UniqueName="[0-1005]MovieDB.Tests.Models" Expanded="true" />
+    <Node UniqueName="[0-1000]MovieDB.Tests.Models.nunit_sandbox" Expanded="true" />
+  </Nodes>
+</VisualState>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4c8ad06d-b896-495d-8409-5eeeb6e1fd3e" name="DRabb@DRABB-B96A570CE 2009-12-14 22:47:55" runUser="DRABB-B96A570CE\DRabb" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Default Run Configuration" id="7fecee5a-4e35-4c59-a167-8b155135f757">
+    <Deployment runDeploymentRoot="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\TestResults\DRabb_DRABB-B96A570CE 2009-12-14 22_47_55">
+      <DeploymentItem filename="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB\bin\MovieDB.dll" />
+    </Deployment>
+    <Hosts skipUnhostableTests="false" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2009-12-14T22:47:55.7453750-05:00" queuing="2009-12-14T22:47:56.5578750-05:00" start="2009-12-14T22:47:56.7141250-05:00" finish="2009-12-14T22:48:04.2922500-05:00" />
+  <TestDefinitions>
+    <UnitTest name="Movie_Should_Be_Valid_When_Props_Correct" storage="c:\documents and settings\drabb\my documents\visual studio 2008\projects\moviedb\moviedb.tests\bin\debug\moviedb.tests.dll" id="740c8d06-ca32-5fa8-6216-55d309c191b2">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="cd81393e-b510-4875-998c-21e1a187ee40" />
+      <TestMethod codeBase="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MovieDB.Tests.Models.MovieTest, MovieDB.Tests" name="Movie_Should_Be_Valid_When_Props_Correct" />
+    </UnitTest>
+    <UnitTest name="Movie_Should_Be_Invalid_When_Props_Incorrect" storage="c:\documents and settings\drabb\my documents\visual studio 2008\projects\moviedb\moviedb.tests\bin\debug\moviedb.tests.dll" id="9b5e4c1d-75f0-ef57-97e4-b18106de3264">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="fe544153-8888-49a4-b7af-ea693a068b88" />
+      <TestMethod codeBase="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MovieDB.Tests.Models.MovieTest, MovieDB.Tests" name="Movie_Should_Be_Invalid_When_Props_Incorrect" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="740c8d06-ca32-5fa8-6216-55d309c191b2" executionId="cd81393e-b510-4875-998c-21e1a187ee40" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9b5e4c1d-75f0-ef57-97e4-b18106de3264" executionId="fe544153-8888-49a4-b7af-ea693a068b88" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="cd81393e-b510-4875-998c-21e1a187ee40" testId="740c8d06-ca32-5fa8-6216-55d309c191b2" testName="Movie_Should_Be_Valid_When_Props_Correct" computerName="DRABB-B96A570CE" duration="00:00:05.2719988" startTime="2009-12-14T22:47:56.8078750-05:00" endTime="2009-12-14T22:48:02.5735000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fe544153-8888-49a4-b7af-ea693a068b88" testId="9b5e4c1d-75f0-ef57-97e4-b18106de3264" testName="Movie_Should_Be_Invalid_When_Props_Incorrect" computerName="DRABB-B96A570CE" duration="00:00:01.6125147" startTime="2009-12-14T22:48:02.5891250-05:00" endTime="2009-12-14T22:48:04.1985000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

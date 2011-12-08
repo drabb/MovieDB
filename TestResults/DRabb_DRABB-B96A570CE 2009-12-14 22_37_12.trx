@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="94d7a0c2-d550-48f7-956e-5d5a27433a81" name="DRabb@DRABB-B96A570CE 2009-12-14 22:37:12" runUser="DRABB-B96A570CE\DRabb" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Default Run Configuration" id="710f513f-14f0-44a7-b08e-1388863d7ca9">
+    <Deployment runDeploymentRoot="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\TestResults\DRabb_DRABB-B96A570CE 2009-12-14 22_37_12">
+      <DeploymentItem filename="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB\bin\MovieDB.dll" />
+    </Deployment>
+    <Hosts skipUnhostableTests="false" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2009-12-14T22:37:12.8860000-05:00" queuing="2009-12-14T22:37:13.6672500-05:00" start="2009-12-14T22:37:13.8391250-05:00" finish="2009-12-14T22:37:20.7141250-05:00" />
+  <TestDefinitions>
+    <UnitTest name="Movie_Should_Be_Invalid_When_Props_Incorrect" storage="c:\documents and settings\drabb\my documents\visual studio 2008\projects\moviedb\moviedb.tests\bin\debug\moviedb.tests.dll" id="9b5e4c1d-75f0-ef57-97e4-b18106de3264">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="98ae1a5d-ef83-4335-99ec-c87ba45157ab" />
+      <TestMethod codeBase="C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MovieDB.Tests.Models.MovieTest, MovieDB.Tests" name="Movie_Should_Be_Invalid_When_Props_Incorrect" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9b5e4c1d-75f0-ef57-97e4-b18106de3264" executionId="98ae1a5d-ef83-4335-99ec-c87ba45157ab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="98ae1a5d-ef83-4335-99ec-c87ba45157ab" testId="9b5e4c1d-75f0-ef57-97e4-b18106de3264" testName="Movie_Should_Be_Invalid_When_Props_Incorrect" computerName="DRABB-B96A570CE" duration="00:00:06.1070418" startTime="2009-12-14T22:37:13.9328750-05:00" endTime="2009-12-14T22:37:20.6516250-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method MovieDB.Tests.Models.MovieTest.Movie_Should_Be_Invalid_When_Props_Incorrect threw exception:  System.NullReferenceException: Object reference not set to an instance of an object..</Message>
+          <StackTrace>    at MovieDB.Models.MovieDBDataContext..ctor() in C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB\Models\MovieDB.designer.cs:line 56
+   at MovieDB.Models.Movie.&lt;GetRuleViolations&gt;d__0.MoveNext() in C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB\Models\Movie.cs:line 21
+   at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at MovieDB.Models.Movie.get_IsValid() in C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB\Models\Movie.cs:line 11
+   at MovieDB.Tests.Models.MovieTest.Movie_Should_Be_Invalid_When_Props_Incorrect() in C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\Models\MovieTest.cs:line 30
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

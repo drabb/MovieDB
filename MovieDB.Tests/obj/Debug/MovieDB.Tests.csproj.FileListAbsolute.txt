@@ -1,0 +1,29 @@
+C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll.config
+C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll
+C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.pdb
+C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.dll
+C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.pdb
+C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\obj\Debug\MovieDB.Tests.dll
+C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\obj\Debug\MovieDB.Tests.pdb
+C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\nunit.framework.dll
+C:\Documents and Settings\DRabb\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\nunit.framework.xml
+C:\Documents and Settings\Dan\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll.config
+C:\Documents and Settings\Dan\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll
+C:\Documents and Settings\Dan\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.pdb
+C:\Documents and Settings\Dan\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.dll
+C:\Documents and Settings\Dan\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\nunit.framework.dll
+C:\Documents and Settings\Dan\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.pdb
+C:\Documents and Settings\Dan\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\bin\Debug\nunit.framework.xml
+C:\Documents and Settings\Dan\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Dan\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\obj\Debug\MovieDB.Tests.dll
+C:\Documents and Settings\Dan\My Documents\Visual Studio 2008\Projects\MovieDB\MovieDB.Tests\obj\Debug\MovieDB.Tests.pdb
+C:\Users\dan\Documents\Visual Studio 2010\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll.config
+C:\Users\dan\Documents\Visual Studio 2010\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.dll
+C:\Users\dan\Documents\Visual Studio 2010\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.Tests.pdb
+C:\Users\dan\Documents\Visual Studio 2010\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.dll
+C:\Users\dan\Documents\Visual Studio 2010\Projects\MovieDB\MovieDB.Tests\bin\Debug\MovieDB.pdb
+C:\Users\dan\Documents\Visual Studio 2010\Projects\MovieDB\MovieDB.Tests\bin\Debug\nunit.framework.xml
+C:\Users\dan\Documents\Visual Studio 2010\Projects\MovieDB\MovieDB.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dan\Documents\Visual Studio 2010\Projects\MovieDB\MovieDB.Tests\obj\Debug\MovieDB.Tests.dll
+C:\Users\dan\Documents\Visual Studio 2010\Projects\MovieDB\MovieDB.Tests\obj\Debug\MovieDB.Tests.pdb
